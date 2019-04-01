@@ -1,5 +1,5 @@
 # checking for loading image 
-## _First_: DOM Element
+#### _First_: **DOM Element**
 ```javascript
 let img = document.getElementById('imageId')
 window.onload = function(){
@@ -7,7 +7,7 @@ window.onload = function(){
 }
 
 ```
-## _Second_: Object Constructor
+#### _Second_: **Object Constructor**
 ```javascript
 let img = new Image()
 img.src = 'save.jpeg'
