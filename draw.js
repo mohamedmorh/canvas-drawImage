@@ -16,5 +16,5 @@ objImg.src = "save.jpeg";
 // because of the reference of the image source
 // its in the Object source so I must check the Object
 objImg.onload = function () {
-  c.drawImage(domImg,550,0)
+  c.drawImage(objImg,550,0)
 }
